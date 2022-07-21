@@ -1,0 +1,68 @@
+body {
+    background: white;
+    color: #323232;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica neue, roboto;
+  }
+  
+  img {
+    width: 56px;
+    height: 48px;
+  }
+  
+  h1 {
+    font-weight: 200;
+    font-style: 26px;
+    margin: 10px;
+  }
+  
+  table {
+    border: 1px solid #333;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  
+  th {
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 5px;
+    text-transform: capitalize;
+  }
+  .searchForm {
+    background: #f3f3f3;
+    padding: 30px 30px 30px;
+    border-bottom: 1px solid #ccc;
+  }
+  .buttonContainer {
+    padding: 30px 30px 30px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  button {
+    height: 30px;
+    width: 127px;
+    font-size: 13px;
+    margin: 3px 1px;
+  }
+  
+  input {
+    height: 25px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
