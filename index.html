@@ -1,0 +1,73 @@
+<html>
+    <head><title>Untitled - 628629</title>
+      <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+      <div class="searchForm">
+        <input type="text" id="getInput">
+        <button id="getResult" onclick="getRes.getResultbyName()">Submit</button>
+      </div>
+      <div class="buttonContainer">
+      <button onclick="getRes.getOverAllResult()">Over All Result</button>
+      <button onclick="getRes.getTopScorere()">Top 3 Score</button>
+      <button onclick="getRes.getSubjectTopScorer()">Subject Topper</button>
+      <button onclick="getRes.getAllStdInfo()">All Student Result</button>
+      <button onclick="getRes.getPassList()">Pass List</button>
+      <button onclick="getRes.getFailList()">Fail List</button>
+      <button onclick="getRes.getMaleStd()">Male Result</button>
+      <button onclick="getRes.getFemaleStd()">Female Result</button>
+      </div>
+    
+    <div class="container">
+      <div id="showResult" class="hide">
+        <div id="showTableResult"></div>
+      </div>
+      
+      <div id="overAllContainer" class="hide">
+        <h3 id="overAllTitle">Overall Result</h3>
+        <div id="overAllResult"> </div>
+      </div>
+      
+      <div id="top3Container" class="hide">
+        <h3 id="">Top 3 Score</h3>
+        <div id="top3Result"> </div>
+      </div>
+      
+      <div id="subjectTopperContainer" class="hide">
+        <h3 id="">Subject Wise Topper</h3>
+        <div id="subjectTopper"> </div>
+      </div>
+      
+      
+      <div id="allStdContainer" class="hide">
+        <h3 id="allStd">All Student Average:  <span>68.87</span></h3>
+        <div id="showDetails"> </div>
+      </div>
+      
+      <div id="passContainer" class="hide">
+        <h3 id="passCount">Pass: <span>4</span></h3>
+        <div id="passList"> </div>
+      </div>
+      
+      <div id="failContainer" class="hide">
+        <h3 id="failCount">Fail: <span>2</span></h3>
+        <div id="failList"> </div>
+      </div>
+      
+      <div id="maleResContainer" class="hide">
+        <h3 id="maleStd">Male Student Average: <span>71.35</span></h3>
+        <div id="maleDetails"> </div>
+      </div>
+      
+      <div id="femaleResContainer" class="hide">
+        <h3 id="femaleStd">Femal Student Average: <span>63.90</span></h3>
+        <div id="femaleDetails"> </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
