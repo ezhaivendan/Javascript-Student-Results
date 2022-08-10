@@ -20,7 +20,8 @@ body {
   
   table {
     border: 1px solid #333;
-    width: 550px;
+    font-family: cursive;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   
