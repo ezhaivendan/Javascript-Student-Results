@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: #f3f3f3;
     color: #323232;
     font-weight: 300;
     height: 100vh;
@@ -30,6 +30,7 @@ body {
     border-bottom: 1px solid;
     padding: 5px;
     text-transform: capitalize;
+    background: #f3f3f3;
   }
   .searchForm {
     background: #f3f3f3;
@@ -39,6 +40,7 @@ body {
   .buttonContainer {
     padding: 30px 30px 30px;
     border-bottom: 1px solid #ccc;
+    background: #fff;
   }
   
   .container {
