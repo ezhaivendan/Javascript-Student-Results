@@ -23,6 +23,7 @@ body {
     font-family: cursive;
     font-size: 14px;
     margin-bottom: 20px;
+    background: #fff;
   }
   
   th {
@@ -68,4 +69,9 @@ body {
   
   .show {
     display: block;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-family: cursive;
   }
