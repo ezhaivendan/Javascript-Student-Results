@@ -16,7 +16,6 @@ class student {
     }
   
     getTotalMark() {
-      console.log(this.studentInfo, studentArr, '*******');
       this.studentInfo.forEach(ele => {
         ele.total = Object.values(ele.marks).reduce((acc, val) => acc + val);
       });
