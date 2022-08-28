@@ -179,8 +179,6 @@ class student {
     getOverAllResult() {
       this.showResult(overAllContainer);
   
-      //console.log(this.studentInfo.slice(0,2))
-  
       // console.log(this.studentInfo.reduce((acc, val) => {
       //   if(acc.total < val.total) {
       //     acc = val;
