@@ -6,7 +6,7 @@ class student {
     getTamilAverage() {
       let totalTamilMarks = this.studentInfo.map(ele => ele.marks.tamil).
       reduce((acc, val) => acc + val);
-      return (totalTamilMarks / studentArr.length).toFixed(1);
+      return (totalTamilMarks / studentArr.length).toFixed(2);
     }
   
     getEnglishAverage() {
