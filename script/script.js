@@ -224,8 +224,6 @@ class student {
       maths: 79,
       science: 99,
       social: 82 } },
-  
-  
   {
     name: 'Abi',
     gender: 'F',
