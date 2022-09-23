@@ -213,8 +213,6 @@ class student {
       maths: 88,
       science: 72,
       social: 90 } },
-  
-  
   {
     name: 'Arun',
     gender: 'M',
@@ -233,8 +231,6 @@ class student {
       maths: 82,
       science: 72,
       social: 86 } },
-  
-  
   {
     name: 'Chitra',
     gender: 'F',
@@ -244,8 +240,6 @@ class student {
       maths: 48,
       science: 32,
       social: 35 } },
-  
-  
   {
     name: 'Saravanan',
     gender: 'M',
@@ -255,7 +249,6 @@ class student {
       maths: 92,
       science: 83,
       social: 79 } },
-  
   {
     name: 'Sathish',
     gender: 'M',
