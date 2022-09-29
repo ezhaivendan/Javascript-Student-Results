@@ -1,9 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #f3f3f3;
     color: #323232;
     font-weight: 300;
     height: 100vh;
-    margin: 0;
     font-family: Helvetica neue, roboto;
   }
   
