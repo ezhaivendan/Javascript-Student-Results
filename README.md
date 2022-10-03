@@ -1,4 +1,4 @@
-# Javascript Student Results
+## Javascript Student Results
 
 ## Landing Page
 ![image](https://user-images.githubusercontent.com/5046280/180201364-2beffb8e-7337-4358-903c-69553767ccfa.png)
